@@ -151,3 +151,14 @@ print(list(i+1 for i in range(10)))
 # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 # <generator object <genexpr> at 0x000002A4CBF9EBA0>
 # https://www.cnblogs.com/wj-1314/p/8490822.html
+
+info = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+b = []
+# for index,i in enumerate(info):
+#     print(i+1)
+#     b.append(i+1)
+# print(b)
+for index,i in enumerate(info):
+    info[index] +=1
+    print(index, i)
+print(info)
