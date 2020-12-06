@@ -7,3 +7,4 @@ if age >= 18:
 else:
     print('Your age is', age)
     print('teenager')
+
