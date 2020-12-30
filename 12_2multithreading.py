@@ -46,6 +46,7 @@ def change_it(n):
 
 def run_thread(n):
     for i in range(2000000):
+        print(i)
         # change_it(n)
         # 先要获取锁:
         lock.acquire()
